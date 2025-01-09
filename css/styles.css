@@ -564,6 +564,11 @@ footer {
     color: #fff;
     font-weight: 500
 }
+#contact p {
+    margin: 0 0 15px;
+    color: #fff;
+    font-weight: 500
+}
 #contact-form {
     max-width: 500px;
     margin: 0 auto
