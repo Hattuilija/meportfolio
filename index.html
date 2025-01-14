@@ -12,107 +12,6 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <style>
-        /* Mobile responsive styles */
-        @media (max-width: 768px) {
-            #lead-content {
-                text-align: center;
-            }
-
-            .container .row {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .project {
-                width: 100%;
-                margin-bottom: 20px;
-            }
-
-            .project-info {
-                text-align: center;
-            }
-
-            .project-image img {
-                width: 100%;
-                height: auto;
-            }
-
-            #experience-timeline div {
-                margin-bottom: 20px;
-                text-align: center;
-            }
-
-            #experience-timeline div h3,
-            #experience-timeline div h4 {
-                font-size: 18px;
-            }
-
-            /* Ensure the experience section is aligned and stacked properly */
-            #experience .container {
-                text-align: center;
-            }
-
-            /* Mobile menu adjustments */
-            #menu {
-                display: none;
-            }
-            #mobile-menu-open {
-                display: block;
-            }
-
-            #mobile-menu-close {
-                display: block;
-            }
-
-            /* Footer */
-            .social ul {
-                display: flex;
-                justify-content: center;
-                padding-left: 0;
-            }
-
-            .social ul li {
-                margin: 0 10px;
-            }
-
-            #contact-form {
-                text-align: center;
-            }
-
-            /* Skills section alignment */
-            #skills ul {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                padding: 0;
-                list-style: none;
-            }
-
-            #skills ul li {
-                margin: 5px 10px;
-                font-size: 16px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .heading {
-                font-size: 22px;
-            }
-
-            .project-info h3 {
-                font-size: 20px;
-            }
-
-            .project-info p {
-                font-size: 14px;
-            }
-
-            .social ul li i {
-                font-size: 20px;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -125,12 +24,24 @@
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <ul id="menu" class="shadow">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
         </ul>
     </header>
     <!-- End header -->
@@ -142,7 +53,7 @@
         </div>
         <!-- End #lead-content -->
 
-        <div id="lead-overlay"></div>
+    <div id="lead-overlay"></div>
 
         <div id="lead-down">
             <span>
@@ -175,23 +86,36 @@
         <div id="experience-timeline">
             <div data-date="2nd of May 2022 – 17th of June 2022">
                 <h3>Power</h3>
-                <h4>Job practice (TJK)</h4>
+                <h4>Job practise (TJK)</h4>
                 <p>
-                    A six-week job period at an electronics store.
-                    Helped customers with things they asked for, cleaned around the store,
-                    stocked the shelves, and did many other things I was asked to do.
+                     A six week job perioid at an elecronics store.
+                     Helped customers with things they asked for, cleaned around the store,
+                     stocked the shelves and did many other things I was asked to do.
                 </p>
             </div>
-            <div data-date="2nd of September 2024 – 20th of December 2024">
-                <h3>SkyLED</h3>
-                <h4>Job practice (TJK)</h4>
-                <p>
-                    A three-month job period.
-                </p>
-            </div>
+                    <div data-date="2nd of September 2024 – 20th of December 2024">
+                        <h3>SkyLED</h3>
+                        <h4>Job practise (TJK)</h4>
+                         <p>
+                              A three month job perioid.
+                        </p>
+                    </div>
         </div>
     </div>
     <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>OSAO</h3>
+            <span class="education-date">August 2021 - February 2025</span>
+            <h4>Software Developer</h4>
+            <p>
+                Information and Communications Technology studies at the vocational school of OSAO.
+            </p>
+        </div>
+    </div>
+    <!-- End #education -->
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
@@ -201,19 +125,23 @@
                     <div class="project-image">
                         <img src="images/Sparkle2.png" />
                     </div>
+                    <!-- End .project-image --> 
                     <div class="project-info">
                         <h3>Sparkle Land</h3>
                         <p>
-                            A first-person 3D game where you fight against small waves of enemies within the time limit as a unicorn.
+                            A first person 3D game where you fight against small waves of enemies within the time limit as a unicorn.
                         </p>
                         <a href="https://algam3r.itch.io/sparkle-land">View Project</a>
                     </div>
+                    <!-- End .project-info -->
                 </div>
+                <!-- End .project -->
 
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/Cloud2.png" />
                     </div>
+                    <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Cloud Dodge</h3>
                         <p>
@@ -221,7 +149,9 @@
                         </p>
                         <a href="https://algam3r.itch.io/cloud-dodge">View Project</a>
                     </div>
+                    <!-- End .project-info -->
                 </div>
+                <!-- End .project -->
             </div>
         </div>
     </div>
@@ -250,6 +180,7 @@
                 E-mail address: matilda.pohjanen@gmail.com
             </p>
         </div>
+        <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
 
